@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>C3 Corvette</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  	<link rel="stylesheet" href="css/grid.css" />
+	<link rel="stylesheet" href="css/c3.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script href="script/smoothState.js-master/jquery.smoothState.min.js"></script>
+	<script href="script/smooth-transition.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <!-- insert header content -->
+		<div id="banner" class="col-xxs-12 col-sm-1 col-md-1">
+			<a href="index.html"><img id="logo" class="col-xxs-1" src="images/corvette_logo.png" alt="corvette-logo"></a>
+			<img class="name" id="vertical" src="images/corvette_name.png" alt="Corvette: America's Sports Car">
+			<img class="name" id="horizontal" src="images/corvette_name_horizontal.png" alt="Corvette Name">
+	  	</div><!--banner-->
+		
+		
+    </header>
+
+    <main>
+      <!-- insert body content -->
+		<div id="model-options" class="col-xxs-12 col-sm-1 col-md-2">
+		  <ul id="models">
+			  <li class="model-item"><a class="nav-link" href="c1.html">C1</a></li>
+			  <li class="model-item"><a class="nav-link" href="c2.html">C2</a></li>
+			  <li class="model-item"><a class="active nav-link" href="c3.html">C3</a></li>
+			  <li class="model-item"><a class="nav-link" href="c4.html">C4</a></li>
+			  <li class="model-item"><a class="nav-link" href="c5.html">C5</a></li>
+			  <li class="model-item"><a class="nav-link" href="c6.html">C6</a></li>
+			  <li class="model-item"><a class="nav-link" href="c7.html">C7</a></li>
+			  <li class="model-item"><a class="nav-link" href="c8.html">C8</a></li>
+			  <li class="model-item"><a class="nav-link" href="index.html" aria-label="Go back to home"><i aria-hidden="true" class="fa fa-home"></i></a></li>
+			  <li class="model-item"><a class="nav-link" href="sources.html" aria-label="Go back sources"><i aria-hidden="true" class="fa fa-archive"></i></a></li>
+		  </ul>
+		 </div><!--model-options-->
+		
+		<div class="m-scene col-xxs-12 col-sm-10 col-md-9" id="main">
+		  <div id="box" class="main-aside scene_element scene_element--fadeinright"> 
+			  <div id="model-info">
+				  <h1>Corvette C3</h1>
+				  <div id="years">
+					  <h2>1968</h2>
+					  <h3>&nbsp; -1982</h3>
+				  </div><!--years-->
+			  </div><!--model-info-->
+			  
+			  <div id="overview" class="row">
+				  <p id="blurb" class="column">Named the &quot;Shark&quot;, the C3 Corvette was met with mixed reviews. The &apos;68 and &apos;69 models were essentially unchanged from its predecessor. This generation saw the arrival of the ZL-1 which originally made 430 hp but could make up to 580 hp with the stock manifolds scrapped for headers. This generation saw the emergence of wild engines in which racing enthusiasts could essentially buy a factory race-ready sports car.</p>
+				  
+				  <div class="column">
+				  <div class="slideshowContainer">
+					<div class="mySlides fade">
+					  <img class="car" src="images/c3_2.png" alt="c3_1">
+					</div>
+					<div class="mySlides fade">
+					  <img class="car" src="images/c3_4.png" alt="c3_2">
+					</div>
+					<div class="mySlides fade">
+					  <img class="car" src="images/c3_3.png" alt="c3_3">
+					</div>
+					<div class="mySlides fade">
+					  <img class="car" src="images/c3_1.png" alt="c3_4">
+					</div>
+
+					<a class="prev" onClick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onClick="plusSlides(1)">&#10095;</a>
+				  </div><!--slideshowContainer-->
+				  
+				  <br>
+				  
+				  <div  class="selector">
+					<span class="dot" onClick="currentSlide(1)"></span>
+					<span class="dot" onClick="currentSlide(2)"></span>
+					<span class="dot" onClick="currentSlide(3)"></span>
+					<span class="dot" onClick="currentSlide(4)"></span>
+				 </div>
+				  </div><!--column-->
+			  </div><!--overview-->
+			  
+			  <hr id="hr1">
+			  
+			   <div id="specs-container">
+				  <h2 id="specs-header">Model Year 1953 Specifications</h2>
+				  <table border="0" cellspacing="0" cellpadding="10" id="specs">
+					  <tbody>
+						<tr>
+						  <td>Engine</td>
+						  <td>Power</td>
+						  <td>Torque</td>
+						</tr>
+						<tr>
+							<th>327 ci V8</th>
+							<th>300hp</th>
+							<th>360 lb-ft</th> 
+						</tr>
+						<tr>
+						  <td>Top Speed</td>
+						  <td>0-60 mph</td>
+						  <td>Quarter Mile</td>
+						</tr>
+						<tr>
+						  <th>131-mph</th>
+						  <th>6.4 seconds</th>
+						  <th>14.7 seconds</th>
+						</tr>
+					  </tbody>
+					</table>
+			  </div><!--specs-->
+			  
+			  <hr id="hr2">
+			  
+			  <div id="changes-container">
+				  <h2 id="changes-header">Yearly Changes</h2>
+				  <table border="0" cellspacing="0" cellpadding="10" id="changes">
+				  <tbody>
+					<tr>
+					  <td class="yr">1968</td>
+					  <td>Completely restyled features an industry first &quot;T-top&quot;; Lines closely resemble the Mako Shark II show car; headlamps are now backlit &quot;pop-up&quot; designs</td>
+					</tr>
+					<tr>
+					  <td class="yr">1969</td>
+					  <td>The 250,000th Corvette &#45; a gold convertible &#45; comes off of the St. Louis production line in November; &quot;Stingray&quot; script is added about the fender; ZR-1 optional factory-installed racking package is offered</td>
+					</tr>
+					<tr>
+					  <td class="yr">1970</td>
+					  <td>New LT1 Small Block V8 engine option with solid lifters is introduced at 370 hp</td>
+					</tr>
+					<tr>
+					  <td class="yr">1971</td>
+					  <td>Essentially remained unchanged from 1970</td>
+					</tr>
+					<tr>
+					  <td class="yr">1972</td>
+					  <td>Last year to feature both front and rear chrome bumpers, a bright egg-crate grill and side-fender grills</td>
+					</tr>
+					<tr>
+					  <td class="yr">1973</td>
+					  <td>4,000 serial numbers were never built, so the production totaled 30,464</td>
+					</tr>
+					<tr>
+					  <td class="yr">1974</td>
+					  <td>Last year of the 454 big-block</td>
+					</tr>
+					<tr>
+					  <td class="yr">1975</td>
+					  <td>Final year of the convertible until its 1986 return</td>
+					</tr>
+					<tr>
+					  <td class="yr">1976</td>
+					  <td>An over-the-radiator, carburetor air-induction system is a new standard feature with a partial steel underbody is added to add strength</td>
+					</tr>
+					<tr>
+					  <td class="yr">1977</td>
+					  <td>The 500,000th Corvette &#45; a white coupe with red interior &#45; is produced in St. Louis in March</td>
+					</tr>
+				  	<tr>
+					  <td class="yr">1978</td>
+					  <td>Fastback body style marks Corvette&apos;s 25th year of production; traditional crossed-flag emblem is replaced with a special anniversary emblem; special edition Indy 500 Pace Car replica</td>
+					</tr>
+					<tr>
+					  <td class="yr">1979</td>
+					  <td>Halogen headlamps become available for the first time</td>
+					</tr>
+					<tr>
+					  <td class="yr">1980</td>
+					  <td>New front and rear plastic bumper caps with integrated spoilers and new hood improved drag coefficient</td>
+					</tr>
+					<tr>
+					  <td class="yr">1981</td>
+					  <td>Mid-year production shifted to Bowling Green, KY &#45; first time a model was built in two locations simultaneously</td>
+					</tr>
+					<tr>
+					  <td class="yr">1982</td>
+					  <td>Convenient hatchback design introduced; four-speed automatic transmissions with overdrive became standard with not manual transmission offered until 1984</td>
+					</tr>
+				  </tbody>
+				</table>
+			  </div><!--changes-->
+			  
+			  <div id="spacer"></div>
+			  
+			  
+			</div><!--box-->
+		</div><!--main-->
+    </main>
+
+    <footer>
+      <!-- insert footer content -->
+		<script>
+		//sets the variable slideIndex to 1
+			var slideIndex = 1;
+			showSlides(slideIndex);
+			
+			//next/previous controls - add n to the index if clicked
+			function plusSlides(n){
+				showSlides(slideIndex += n);
+			}
+			
+			//Image and dot function
+			function showSlides(n){
+				//stores the slides as the items with class name mySlides
+				//stores the dots as the item with class name dot
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				//if n is greater than the slide length, set the index as one
+				if(n > slides.length) {slideIndex = 1}
+				//if n is less than 1, set the index as the new slide length
+				if(n < 1) {slideIndex = slides.length}
+				//for as long as i is less than 4, hide the image
+				for (i = 0; i < slides.length; i++){
+					slides[i].style.display = "none";
+				}
+				//for as long as i is less than four, replace the class name
+				for (i = 0; i < dots.length; i++){
+					dots[i].className = dots[i].className.replace(" indicator", "");
+				}
+				//sets the current image as the block and adds the indicator class to the dots
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " indicator";
+			}
+		</script>
+    </footer>
+  </body>
+</html>

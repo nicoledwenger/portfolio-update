@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Corvette Encyclopedia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  	<link rel="stylesheet" href="css/grid.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script href="script/smoothState.js-master/jquery.smoothState.min.js"></script>
+	<script href="script/smooth-transition.js"></script>
+  </head>
+
+  <body class="bkgdColor textColor">
+    <header>
+    </header>
+
+    <main class="m-scene scene_element">
+		<div id="videoContainer">
+			<video autoplay muted loop id="myVideo">
+				<source src="images/corvette_2020.mp4" type="video/mp4">
+				Your browser does not support HTML5 video.
+			</video>
+		</div><!--videoContainer-->
+
+		<div class="content fadeslow m-scene scene_element">
+			<div id="cover" class="col-xxs-12">
+				<a href="index.html"><img id="frontLogo" class="col-xxs-1" src="images/corvette_logo.png" alt="corvette-logo"></a>
+				<ul>
+					<li class="videoList"><a href="sources.html">Sources</a></li>
+					<li class="videoList"><a href="c1.html">Models</a></li>
+					
+				</ul>
+	  		</div><!--cover-->
+			<div class="copy">
+		  <h1 id="mainText">America's Sports Car</h1>
+		  <p id="descText">Explore the history of the Corvette from inception to the long-awaited mid engine layout.</p>
+			<div class="btnContainer">
+				<button id="myBtn" onClick="window.location.href = 'c1.html';">Discover</button>
+			</div><!--btnContainer-->
+				</div><!--copy-->
+		</div><!--content-->
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+</html>

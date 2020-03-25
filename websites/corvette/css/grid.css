@@ -1,0 +1,325 @@
+/*For mobile*/
+[class*="col-"] {
+  float: left;
+}
+
+@media only screen and (max-width: 480px) {
+  /* For phones: */
+  .col-xxs-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 480px) {
+  /* For portrait tablets: */
+  .col-xs-12 {width: 100%;}
+	#banner{
+		height: 80px;
+	}	
+	
+	#logo{
+		width: 15%;
+		padding: 5px 0px 0px 20px;
+	}
+	
+	#horizontal{
+		padding: 8px 20px 10px 20px;
+	}
+	
+	#spacer{
+		margin: 250px 0px 100px 0px;
+	}
+	
+	#resourcesContainer{
+		margin: 12% 5% 10% 5%;
+	}
+	
+	.subhead{
+		margin: 3% 7%;
+	}
+
+	#resources{
+		margin: 12% 5% 10% 3%;
+	}
+
+	
+	#model-options{
+		height: 100px;
+		top: 10%;
+	}
+
+	#models {
+		margin: 28px;
+	}
+
+	.model-item{
+		margin: 2% 6%;
+	}
+
+	.nav-link{
+		font-size: 2.95rem;
+	}
+	
+	h1 {
+		font-size: 2.55rem;
+	}
+
+	h2 {
+		font-size: 2.25rem;
+	}
+
+	h3{
+		font-size: 2rem;
+		line-height: 35px;
+	}
+
+	p {
+		line-height: 32px;
+		font-size: 1rem;
+	}
+
+	.yr{
+		font-size: 1.2rem;
+	}
+
+	td, th {
+		padding: 15px;
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For landscape tablets: */
+  .col-sm-1 {width: 8.33%;}
+  .col-sm-10 {width: 83.33%;}
+	.col-sm-12 {width: 100%;}
+	
+	#banner{
+		background-color: #e0e0e0;
+		width: 8.33%;
+		height: 100vh;
+	}
+	
+	#logo{
+		width: 100%;
+		float: none;
+		padding: 0px;
+	}
+	
+	#frontLogo{
+		width: 8%;
+	}
+
+	#vertical{
+		display: block;
+		width: 40%;
+		margin-left: 15px;
+		margin-top: 175px;
+		margin-right: 15px;
+	}
+
+	#horizontal{
+		display: none;
+	}
+	
+	#resourcesContainer{
+		margin: 8% 5% 10% 5%;
+	}
+	
+	.subhead{
+		margin: 2% 7%;
+	}
+
+	#resources{
+		margin: 8% 5% 10% 5%;
+	}
+	
+	.prev, .next{
+		font-size: 1rem;
+	}
+	
+	h1 {
+		font-size: 2.25rem;
+	}
+
+	h2 {
+		font-size: 2.25rem;
+	}
+
+	h3{
+		font-size: 2rem;
+		line-height: 35px;
+	}
+
+	p {
+		line-height: 25px;
+		font-size: 0.9rem;
+	}
+	
+	
+	#model-options{
+		width: 8.33%;
+		overflow-y: auto;
+		height: 100%;
+		top: 40px;
+		left: 10%;
+	}
+
+	#models {
+		margin: 5%;
+	}
+
+	.model-item{
+		display: inline;
+	}
+
+	.nav-link{
+		font-size: 2rem;
+		padding: 10px;
+	}
+	
+	#spacer{
+		margin: 100px 0px 100px 0px;
+	}
+	
+	#box{
+		width: 78%;
+		height: 100vh;
+		box-shadow: -4px 0px 5px 0px #7f7f7f;
+		border-radius: 25px 0px 0px;
+		margin-top: 0%;
+		right: 0px;
+		top: 7%;
+	}
+
+}
+
+@media only screen and (min-width: 992px) {
+  /* For laptops/desktop: */
+  .col-md-1 {width: 8.33%;}
+  .col-md-2 {width: 16.66%;}
+  .col-md-9 {width: 75%;}
+  .col-md-10 {width: 83.33%;}
+	
+	.column{
+		flex: 44%;
+		max-width: 44%;
+	}
+	
+	#logo{
+		width: 95%;
+	}
+
+	#vertical{
+		width: 30%;
+		margin-top: 150px;
+		margin-left: 30px;
+	}
+	
+	.prev, .next{
+		font-size: 0.95rem;
+	}
+	
+	.select{
+		font-size: 0.95rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-size: 2.75rem;
+	}
+
+	h3{
+		font-size: 2.5rem;
+		line-height: 50px;
+	}
+
+	td, th {
+		padding: 15px;
+		font-size: 0.9rem;
+	}
+	
+	#model-options{
+		top: 10px;
+		left: 12%
+	}
+
+	.nav-link{
+		font-size: 2.2rem;
+		padding: 15px 12px;
+	}
+
+}
+
+@media only screen and (min-width: 1200px) {
+  /* For large laptop/desktop: */
+  .col-lg-1 {width: 8.33%;}
+  .col-lg-2 {width: 16.66%;}
+  .col-lg-3 {width: 25%;}
+  .col-lg-4 {width: 33.33%;}
+  .col-lg-5 {width: 41.66%;}
+  .col-lg-6 {width: 50%;}
+  .col-lg-7 {width: 58.33%;}
+  .col-lg-8 {width: 66.66%;}
+  .col-lg-9 {width: 75%;}
+  .col-lg-10 {width: 83.33%;}
+  .col-lg-11 {width: 91.66%;}
+  .col-lg-12 {width: 100%;}
+	
+	#logo{
+		width: 95%;
+	}
+
+	#vertical{
+		width: 30%;
+		margin-top: 55px;
+	}
+	
+	#resourcesContainer{
+		margin: 7% 5% 10% 5%;
+	}
+	
+	.subhead{
+		margin: 0% 7%;
+	}
+
+	#resources{
+		margin: 5% 5% 10% 5%;
+	}
+	
+	h1 {
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-size: 2.75rem;
+	}
+
+	h3{
+		font-size: 2.5rem;
+		line-height: 50px;
+	}
+	
+	p {
+		line-height: 30px;
+		font-size: 1.1rem;
+	}
+	
+	td, th {
+		padding: 15px;
+		font-size: 1.0rem;
+	}
+	
+	#model-options{
+		top: 20px;
+		left: 12%
+	}
+	
+	.nav-link{
+		font-size: 2.1rem;
+		padding: 10px;
+	}
+}
+
+
